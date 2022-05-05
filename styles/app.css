@@ -498,7 +498,6 @@ img {
 }
 
 /* contact */
-
 .contact h2,
 .copyright {
   text-align: center;
@@ -518,11 +517,15 @@ img {
   display: flex;
   flex-direction: column;
 }
-.formulario input,
+.formulario input:not(.btnFooter),
 .formulario .areatext {
   background-color: rgba(29, 29, 29, 0.7);
   border: 0;
   margin-bottom: 2rem;
+}
+.btnFooter {
+  cursor: pointer;
+  width: 20rem;
 }
 .areatext {
   color: #fff;
@@ -547,7 +550,6 @@ img {
 @media (min-width: 900px) {
   .contact__content p {
     text-align: unset;
-    padding-right: 15rem;
     margin: 0 0 2rem 0;
   }
 }
