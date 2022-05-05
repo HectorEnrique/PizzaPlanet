@@ -523,10 +523,6 @@ img {
   border: 0;
   margin-bottom: 2rem;
 }
-.btnFooter {
-  cursor: pointer;
-  width: 20rem;
-}
 .areatext {
   color: #fff;
 }
@@ -539,6 +535,10 @@ img {
   justify-content: space-evenly;
 }
 @media (min-width: 900px) {
+  .btnFooter {
+    cursor: pointer;
+    width: 20rem;
+  }
   .net {
     justify-content: flex-start;
     gap: 2rem;
